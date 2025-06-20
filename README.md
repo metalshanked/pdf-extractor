@@ -2,8 +2,6 @@
 
 A Streamlit web application that extracts and displays metadata and text content from PDF files.
 
-![PDF Extractor](https://github.com/metalshanked/pdf-extractor/raw/main/screenshot.png)
-
 ![PDF Extractor Screenshot](screenshot1.png)
 
 ## Features
