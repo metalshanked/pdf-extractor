@@ -1,0 +1,3 @@
+streamlit==1.45.1
+pdfminer.six>=20221105
+pandas>=1.3.0
