@@ -274,6 +274,11 @@ def main() -> None:
     else:
         st.info("Please upload PDF files using the sidebar to extract.")
 
+    # Add Ko-fi donate button at the bottom of the sidebar
+    with st.sidebar:
+        st.markdown("---")
+        st.markdown('<a href="https://ko-fi.com/Z8Z7X4MZG" target="_blank"><img height="36" style="border:0px;height:36px;" src="https://storage.ko-fi.com/cdn/kofi6.png?v=6" border="0" alt="Buy Me a Coffee at ko-fi.com" /></a>', unsafe_allow_html=True)
+
 if __name__ == "__main__":
     # Configure the Streamlit page settings
     st.set_page_config(
